@@ -1,0 +1,21 @@
+body {
+    font-family: serif, arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: black;
+    padding: 0;
+	margin: 18px;
+}
+h1 {
+	color: yellow;
+    background-color: green;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: bold;
+    text-align: center;
+}
+p {
+	color: white;
+}

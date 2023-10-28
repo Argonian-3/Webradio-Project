@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<script src="script.js"></script>
+<html>
+<head>
+	<title>Webradio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="icon.png">
+</head>
+<body>
+<h1>Webradio</h1>
+
+    <title>Now Playing</title>
+</head>
+<body>
+    <h1>Now Playing</h1>
+    <div id="song-info">
+        <p>Title: <span id="song-title"></span></p>
+        <p>Artist: <span id="song-artist"></span></p>
+    </div>
+    <script>
+        function updateSongInfo(title, artist) {
+            document.getElementById("song-title").textContent = title;
+            document.getElementById("song-artist").textContent = artist;
+        }
+    </script>
+
+<p><audio src="http://localhost:8443/my-radio.mp3" controls></audio></p>
+<p><a href="http://localhost:8443/my-radio.mp3">Direct Link</a></p>
+</body>
+</html>
